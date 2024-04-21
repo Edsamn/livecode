@@ -1,0 +1,31 @@
+.containerInput {
+  width: 500px;
+}
+
+#searchButton {
+  width: 100px;
+}
+
+#peopleContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.userCard {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userCard img {
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  margin-bottom: 1rem;
+}
